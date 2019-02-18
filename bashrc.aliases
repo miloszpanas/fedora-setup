@@ -162,6 +162,13 @@ alias logs="sudo find /var/log -type f -exec file {} \; | grep 'text' | cut -d' 
 # SHA1
 alias sha1='openssl sha1'
 
+# Alias for suspending
+alias spij='sudo systemctl suspend'
+
+# Open files with xdg-open
+alias open='xdg-open':q
+
+
 #######################################################
 # SPECIAL FUNCTIONS
 #######################################################
